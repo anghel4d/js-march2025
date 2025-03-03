@@ -1,0 +1,8 @@
+cabal-version:      2.4
+name:               laser-puzzle
+version:            0.1.0.0
+
+executable laser-puzzle
+    main-is:          solver.hs
+    build-depends:    base, sbv >= 11.0, containers, mtl, array
+    default-language: Haskell2010
